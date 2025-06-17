@@ -4,7 +4,7 @@
   <p style="color: red;"><%= message %></p>
 <% end %>
 
-<%= form_with(url: movies_path(@movie)) do %>
+<%= form_with(model: @movie) do %>
   <div>
   <%= label_tag :title %>
 
